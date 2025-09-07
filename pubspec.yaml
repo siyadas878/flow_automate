@@ -1,0 +1,23 @@
+name: flutter_workflow_builder
+description: A visual workflow builder for creating automated processes with drag-and-drop nodes
+version: 1.0.1
+homepage: https://github.com/siyadas878/flutter_workflow_builder
+repository: https://github.com/siyadas878/flow_automate.git
+issue_tracker: https://github.com/siyadas878/flutter_workflow_builder/issues
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.16.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  signals_flutter: ^6.0.2
+  vector_math: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
