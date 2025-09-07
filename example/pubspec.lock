@@ -41,14 +41,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.19.1"
-  cupertino_icons:
-    dependency: "direct main"
-    description:
-      name: cupertino_icons
-      sha256: ba631d1c7f7bef6b729a622b7b752645a2d076dba9976925b8f25725a30e1ee6
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.8"
   fake_async:
     dependency: transitive
     description:
@@ -62,19 +54,18 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_lints:
-    dependency: "direct dev"
-    description:
-      name: flutter_lints
-      sha256: "5398f14efa795ffb7a33e9b6a08798b26a180edac4ad7db3f231e40f82ce11e1"
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.0.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_workflow_builder:
+    dependency: "direct main"
+    description:
+      path: ".."
+      relative: true
+    source: path
+    version: "1.0.0"
   leak_tracker:
     dependency: transitive
     description:
@@ -99,14 +90,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.1"
-  lints:
-    dependency: transitive
-    description:
-      name: lints
-      sha256: c35bb79562d980e9a453fc715854e1ed39e24e7d0297a880ef54e17f9874a9d7
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.1.1"
   matcher:
     dependency: transitive
     description:
@@ -139,6 +122,30 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.1"
+  preact_signals:
+    dependency: transitive
+    description:
+      name: preact_signals
+      sha256: a5b445796a02244b85fa43d79a7030fbfbbb08f7c48277ee93c636140a8fb2e0
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.8.3"
+  signals_core:
+    dependency: transitive
+    description:
+      name: signals_core
+      sha256: "5668ff1fb953fe48c88b03d50d43c5fe128cd7c831b932a4157f5f6be868b80f"
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.0.2"
+  signals_flutter:
+    dependency: transitive
+    description:
+      name: signals_flutter
+      sha256: "66b36ed0b5961cc7d8d0606813bc3fd66758dc1728cbfcffef0d2a97c7a706a2"
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.0.2"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -209,5 +216,5 @@ packages:
     source: hosted
     version: "14.3.1"
 sdks:
-  dart: ">=3.7.0 <4.0.0"
+  dart: ">=3.7.0-0 <4.0.0"
   flutter: ">=3.18.0-18.0.pre.54"
